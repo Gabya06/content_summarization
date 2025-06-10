@@ -96,7 +96,8 @@ docker run -p 8501:8501 --env-file .env content-summarization
 Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
-
+## Google Cloud 
+Check out the app in [Google Cloud!](https://content-summarization-app-61465655650.us-east1.run.app)
 ## Customization
 
 - Edit `summarize.py` to change prompt logic or add more models.

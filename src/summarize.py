@@ -43,7 +43,7 @@ class ContentSummary:
             {summary_t5}
 
             Please:
-            - Write a concise, friendly summary (2–3 sentences) that captures the sentiment and 
+            - Write a concise, friendly summary (2–3 sentences) that captures the sentiment and
             content of the post.
             - Compare the BART and T5-Large summaries with the original post.
             - Highlight any differences in content, sentiment, or style between the two summaries.

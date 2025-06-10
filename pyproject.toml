@@ -1,0 +1,23 @@
+[project]
+name = "content_summarization"
+version = "0.1.0"
+description = "AI-powered Streamlit app for Reddit post summarization and transformer model comparison (BART vs T5-Large) using Google Gemini."
+authors = [
+    { name = "Gaby Agrocostea", email = "gabya06@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas==2.3.0",
+    "transformers==4.52.4",
+    "google-genai==1.19.0",
+    "streamlit==1.45.1"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# Tell setuptools to look in src/ for packages
+[tool.setuptools.packages.find]
+where = ["src"]

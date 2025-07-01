@@ -1,12 +1,16 @@
 # AI Transformer Model Comparison: Reddit Post Summarization
 
-This project is an **AI-powered Streamlit app** for summarizing Reddit posts and comparing the outputs of two transformer models: **BART** and **T5-Large**. It uses Google Gemini to generate a concise summary and highlight differences between the model-generated summaries.
+This is an **AI-powered Streamlit app** for summarizing Reddit posts and comparing the outputs of two transformer models: **BART** and **T5-Large**. It uses Google Gemini to generate a concise summary and highlight differences between the model-generated summaries. 
+
+* To learn more about the Hugging Face pipeline, `BART` and `T5-Large` transfomer models, you can follow along on [Medium.com](https://medium.com/@gabya06/t5-vs-bart-the-battle-of-the-summarization-models-c1e6d37e56ca).
+
+* The Reddit API was used to generate the data for this repo; you can read about it [here](https://medium.com/@gabya06/automating-reddit-summaries-pulling-data-with-python-91afeb6acdb3).
 
 ---
 
 ## Features
 
-- **Upload CSVs** with BART and T5-Large summaries for Reddit posts
+- **Upload CSVs** with `BART` and `T5-Large` summaries for Reddit posts
 - **AI-generated summary & comparison** using Google Gemini
 - **Visualize sentiment** (with emoji) and number of comments (progress bar)
 - **Interactive UI** built with Streamlit
@@ -105,12 +109,6 @@ Check out the app in [Google Cloud!](https://content-summarization-app-614656556
 
 ---
 
-## License
-
-MIT License
-
----
-
 ## Acknowledgements
 
 - [Google Gemini](https://aistudio.google.com/)
@@ -119,4 +117,3 @@ MIT License
 
 ---
 
-*Made with ❤️ for AI model comparison and NLP research.*
